@@ -13,7 +13,7 @@ $mode = trim($_POST["mode"]);
 if($mode  == "LOAD_MORE_POST"){
     $item_cnt = trim($_POST["item_cnt"]);
     if($item_cnt == "") $item_cnt = 0;
-    $more_item_amount = 3;
+    $more_item_amount = 9;
     $args = array(
         'posts_per_page' => $more_item_amount,
         'offset' => $item_cnt,
@@ -64,7 +64,7 @@ if($mode  == "LOAD_MORE_POST_CATEGORY"){
     $item_cnt = trim($_POST["item_cnt"]);
     $category = trim($_POST["category"]);
     if($item_cnt == "") $item_cnt = 0;
-    $more_item_amount = 3;
+    $more_item_amount = 9;
     $args = array(
         'posts_per_page' => $more_item_amount,
         'offset' => $item_cnt,
