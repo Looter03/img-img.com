@@ -111,7 +111,7 @@ footer{width:100%; padding-top:15px;padding-bottom:15px;}
 }
 
 .dimg-card-category a{
-    background-color: #fdc017 !important;
+    background-color: #3a91d4 !important;
     margin-right: 20px;
     font-size: 14px;
     padding: 4px 5px;
@@ -251,7 +251,7 @@ footer{width:100%; padding-top:15px;padding-bottom:15px;}
 }
 
 .dimg-post-header-cate-area a{
-    background-color: #fdc017 !important;
+    background-color: #3a91d4 !important;
     margin-right: 10px;
     font-size: 14px;
     padding: 4px 5px;
@@ -260,9 +260,9 @@ footer{width:100%; padding-top:15px;padding-bottom:15px;}
     font-weight: 300;
 }
 
-.dimg-post-header-title{display:flex;align-items:center;}
+.dimg-post-header-title{display:flex;align-items:center;padding-top: 20px;width: 100% !important;}
 
-.dimg-post-header-title > h1{font-size:40px;font-weight: 400;margin:0;}
+.dimg-post-header-title > h1{font-size:40px;font-weight: 400;margin:0;width:100%;}
 .dimg-post-header-cate-area{font-weight:300;font-size:20px;}
 .dimg-post-contents-wrapper {
     box-sizing: border-box;
@@ -286,3 +286,8 @@ footer{width:100%; padding-top:15px;padding-bottom:15px;}
 
 .dimg-relative-post-line{width: 140px;margin: 0 auto;border-top:1px solid rgba(256,186,0, 0.89) ;border-bottom:1px solid #707070 ;height:3px;margin-top: 0;}
 [aria-current] { font-weight: bold; }
+
+.wp-block-image img{
+    width:100%;
+    height: auto;
+}
