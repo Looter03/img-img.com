@@ -19,8 +19,7 @@ date_default_timezone_set('Asia/Seoul');
 	<script src="/wp-content/themes/doubleimg/assets/js/jquery.js"></script>
 	<link href="/wp-content/themes/doubleimg/assets/css/dimg-default.css" rel="stylesheet" />
 	<link href="/wp-content/themes/doubleimg/assets/css/dimg-responsive.css" rel="stylesheet" />
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2264064779827388"
-     crossorigin="anonymous"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2264064779827388" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
 <body>
