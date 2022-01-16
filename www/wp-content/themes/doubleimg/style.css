@@ -1,0 +1,27 @@
+/*
+Theme Name: doubleimg
+Description: wordpress galley theme for img-img.com
+Author: knjk
+*/
+
+html {
+	margin:0;
+	padding:0;
+}
+
+.custom-logo{
+	width:40px;
+	height:40px;
+}
+/* 
+#site-header > div.dimg-site-menu > nav > ul {
+	list-style:none;
+} */
+
+/* .menu-item{
+	display: inline-block;
+} */
+
+.dimg-site-title{
+	display:inline-block;
+}
