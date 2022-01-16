@@ -14,6 +14,7 @@ date_default_timezone_set('Asia/Seoul');
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-rqn26AG5Pj86AF4SO72RK5fyefcQ/x32DNQfChxWvbXIyXFePlEktwD18fEz+kQU" crossorigin="anonymous">
 	<link href="/wp-content/themes/doubleimg/assets/css/dimg-load-font.css" rel="stylesheet" />
 	<script src="/wp-content/themes/doubleimg/assets/js/jquery.js"></script>
 	<link href="/wp-content/themes/doubleimg/assets/css/dimg-default.css" rel="stylesheet" />
@@ -28,7 +29,7 @@ date_default_timezone_set('Asia/Seoul');
 
 		<div class="dimg-logo-area">
 			<div class="dimg-logo-img">
-				<a href="https://health-hair-diary.com/"><?= get_custom_logo(); ?></a>
+				<a href="/"><?= get_custom_logo(); ?></a>
 			</div>
 			<div class="dimg-logo-txt">
 				<a href="/"><?= get_bloginfo('name'); ?></a>
