@@ -108,4 +108,8 @@ jQuery(document).ready(function(){
             jQuery(".dimg-loading-btn-cate").removeClass("dimg-loading");
         });
     });
+
+    setTimeout(() => {
+        jQuery('.dimg-contents').masonry();
+    }, 3000);
 });
